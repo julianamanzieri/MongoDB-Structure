@@ -1,0 +1,65 @@
+{
+  "customers": [
+    {
+      "id_customer": "number",
+      "name": "string",
+      "surnames": "string",
+      "addrees": "string",
+      "postal_codel": "number",
+      "city": "string",
+      "province": "string",
+      "phone": "number"
+    }
+  ],
+
+  "orders": [
+    {
+      "id_order": "number",
+      "date": "number",
+      "delibery_type": "string",
+      "products": [
+        {
+          "id_product": "number",
+          "quantity": "number"
+        }
+      ],
+      "total_price": "number",
+      "id_store": "number",
+      "id_delivery": "number",
+      "date_delivery": "number"
+    }
+  ],
+
+  "products": [
+    {
+      "id_product": "number",
+      "name": "string",
+      "description": "string",
+      "image": "string",
+      "price": "number",
+      "category": "string"
+    }
+  ],
+
+  "stores": [
+    {
+      "id_store": "number",
+      "addrees": "string",
+      "postal_code": "number",
+      "city": "string",
+      "province": "string"
+    }
+  ],
+
+  "employees": [
+    {
+      "id_employee": "number",
+      "name": "string",
+      "surnames": "string",
+      "nif": "number",
+      "phone": "number",
+      "position": "string",
+      "id_store": "number"
+    }
+  ]
+}

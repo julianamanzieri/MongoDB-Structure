@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id_user": "number",
+      "email": "string",
+      "password": "string",
+      "user_name": "nstring",
+      "birth": "number",
+      "gender": "string",
+      "country": "string",
+      "postal_code": "number"
+    }
+  ],
+
+  "videos": [
+    {
+      "id_videos": "number",
+      "title": "string",
+      "description": "string",
+      "size": "string",
+      "file_name": "string",
+      "duration": "number",
+      "miniature": "string",
+      "number_of_reproductions": "number",
+      "number_of_likes": "number",
+      "number_not_likes": "number",
+      "status": "string",
+      "tags": "string",
+      "id_user": "number",
+      "publication_date": "number"
+    }
+  ],
+
+  "channel": [
+    {
+      "id_channel": "number",
+      "name": "string",
+      "description": "string",
+      "create_date": "number"
+    }
+  ],
+
+  "inscription": [
+    {
+      "id_user": "number",
+      "id_channel": "number",
+      "registration_date": "number"
+    }
+  ],
+
+  "reactions": [
+    {
+      "id_user": "number",
+      "id_video": "number",
+      "reaction_type": "string",
+      "date": "number"
+    }
+  ],
+
+  "playlists": [
+    {
+      "id_playlist": "number",
+      "name": "string",
+      "create_date": "number",
+      "status": "string",
+      "videos": "number"
+    }
+  ],
+
+  "comments": [
+    {
+      "id_comment": "number",
+      "text": "string",
+      "date": "number",
+      "id_video": "number",
+      "id_user": "number"
+    }
+  ]
+}
